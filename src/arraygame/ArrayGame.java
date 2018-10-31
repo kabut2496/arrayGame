@@ -25,7 +25,7 @@ public class ArrayGame {
     
         play=1;
         //geting info for answer
-    num=(int)Math.round(Math.random()*6+1-1);
+    num=(int)Math.round(Math.random()*3+1-1);
     
     String[] names= new String [6];
     //seing if they want to play
@@ -49,7 +49,7 @@ public class ArrayGame {
       }
     randNum = (int)Math.round(Math.random()*6+1-1);
     //instructions
-        System.out.println("Please enter a name and then a number and see if they mach try to mach the name and number");
+        System.out.println("Please enter a name and then a number bet233n 1-3 and see if they mach try to mach the name and number");
     //getting the players guesses
         ans3=keyedInput.next();
         ans2=keyedInput.nextInt();
